@@ -1,0 +1,149 @@
+body{
+    background-color: #0f1f48;
+}
+
+header{
+    color: #fdf58e;
+    font-size: 20px;
+    text-align: center;
+    font-family:monospace;
+}
+
+#developer{
+    color: white;
+    text-align: end;
+}
+
+button{
+    background-color: #ff0202;
+    border-style: solid;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-family: monospace ;
+    font-weight: 700;
+    font-size: 16px;
+    border-left-color: #f48c8c;
+    border-top-color: #f48c8c;
+    border-right-color: #6b0808;
+    border-bottom-color: #6b0808;
+}
+
+#congrats{
+    color: #fdf58e;
+    font-size: 30px;
+    text-align: center;
+    font-family:monospace;
+}
+
+#box{
+    border-style: solid;
+    background-color: black;
+    height: 298px;
+    width: 298px;
+    border-radius: 6px;
+    position:relative;
+}
+
+#boxborder{
+    background-color: rgb(221, 130, 44);
+    border-left-color: rgb(238, 176, 117);
+    border-top-color: rgb(245, 166, 93);
+    border-right-color: rgb(142, 75, 12);
+    border-bottom-color: rgb(169, 98, 33) ;
+    height: 320px;
+    width: 320px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.tiles{
+    height: 93px;
+    width: 93px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+}
+
+.wrong{
+    background-color: rgb(234, 13, 13);
+    border-top-color: rgb(244, 113, 113);
+    border-left-color: rgb(237, 83, 83);
+    border-right-color: rgb(133, 30, 2);
+    border-bottom-color: rgb(130, 30, 3);
+}
+
+.right{
+    background-color: rgb(1, 166, 1);
+    border-top-color: rgb(105, 232, 105);
+    border-left-color: rgb(91, 239, 91);
+    border-right-color: rgb(1, 65, 1);
+    border-bottom-color: rgb(1, 57, 1);
+}
+
+#tile1{
+    top:0px;
+    left:0px;
+}
+#tile2{
+    top:0px;
+    left:100px;
+}
+#tile3{
+    top:0px;
+    left:200px;
+}
+#tile4{
+    top:100px;
+    left:0px;
+}
+#tile5{
+    top:100px;
+    left:100px;
+}
+#tile6{
+    top:100px;
+    left:200px;
+}
+#tile7{
+    top:200px;
+    left:0px;
+}
+#tile8{
+    top:200px;
+    left:100px;
+}
+
+#tile9{
+    top: 200px;
+    left: 200px;
+}
+
+.blank{
+    background-color: black;
+    border: 0px;
+    opacity: 0;
+}
+
+.animation{
+    transition: 500ms ease-in-out;
+}
